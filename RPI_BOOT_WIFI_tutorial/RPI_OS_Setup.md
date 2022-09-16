@@ -33,12 +33,19 @@ aWIFI_KEY[0]='{password}'
 
 
 
-
-
   •	Insert the SD card into the PI and power it on. It will begin to flash red and green lights. After the green light has stopped blinking, which means that it has booted. This process may take from 5-10 minutes.
   •	 connect the PI to the Rouer and access the router admin page 198.168.8.1 on laptop.
   •	After logging in, go to the ‘clients’ section on left side and copy the IP address of my PI as you can see in the below image.
 
- 
+![image](https://user-images.githubusercontent.com/112664141/190539153-584e3fbe-6eb5-40ce-bea5-2c3e11b9e3ba.png)
+
   •	Open the command prompt and enter the command  “ssh root@IP of my Pi” and type the password and you will then enter the diet pi software as shown below.
+  ![image](https://user-images.githubusercontent.com/112664141/190539229-45633adc-4bf5-4594-b69d-0b4c092982ab.png)
+  
+  •	A prompt will ask if you want to change the global software password for DietPi software installations.
+  ![image](https://user-images.githubusercontent.com/112664141/190539313-7f4b2b91-766e-43bd-928e-17af4a2b7948.png)
+![image](https://user-images.githubusercontent.com/112664141/190539322-dfce7a36-ab42-4212-9fd0-0c42844105d8.png)
+![image](https://user-images.githubusercontent.com/112664141/190539357-b638e61e-868a-4ac4-bc85-66a9db1527da.png)
+
+
 
