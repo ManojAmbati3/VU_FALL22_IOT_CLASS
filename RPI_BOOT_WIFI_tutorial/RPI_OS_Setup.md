@@ -10,17 +10,17 @@ Setup:
  ![balena](https://user-images.githubusercontent.com/112664141/190538807-2d74ef19-fa34-41cf-934d-af60ef1b3846.png)
   •	Open the contents of SD card and modify both dietpi.txt and dietpi-wifi.txt as follows.
 1.	In the dietpi.txt file, change the following network default settings as,
-(Language/Regional options)
+#Language/Regional options
 AUTO_SETUP_LOCALE=en_US.UTF-8 
 AUTO_SETUP_KEYBOARD_LAYOUT=us
-(Time zone)
+#Time zone
 AUTO_SETUP_TIMEZONE=America/New_York 
-(Enable Ethernet or WiFi adapter 0-disable 1-enable )
+#Enable Ethernet or WiFi adapter 0-disable 1-enable 
 AUTO_SETUP_NET_ETHERNET_ENABLED=0 
 AUTO_SETUP_NET_WIFI_ENABLED=1 
 AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US
 AUTO_SETUP_DHCP_TO_STATIC=1
-(Hostname, Enter your hostname as Dietpi_YourHostName)
+#Hostname, Enter your hostname as Dietpi_YourHostName
 AUTO_SETUP_NET_HOSTNAME=DietPi_MAMBA 
 AUTO_SETUP_HEADLESS=1
 AUTO_SETUP_AUTOSTART_TARGET_INDEX=1
@@ -29,6 +29,7 @@ CONFIG_SERIAL_CONSOLE_ENABLE=1
 
 2.	In the dietpi-wifi.txt file, type in your SSID and password of your router in the SSID and KEY colums respectively.
 aWIFI_SSID[0]='Manoj_IOT' 
+
 aWIFI_KEY[0]='{password}'
 
 
@@ -46,6 +47,9 @@ aWIFI_KEY[0]='{password}'
   ![image](https://user-images.githubusercontent.com/112664141/190539313-7f4b2b91-766e-43bd-928e-17af4a2b7948.png)
 ![image](https://user-images.githubusercontent.com/112664141/190539322-dfce7a36-ab42-4212-9fd0-0c42844105d8.png)
 ![image](https://user-images.githubusercontent.com/112664141/190539357-b638e61e-868a-4ac4-bc85-66a9db1527da.png)
+
+You have succesfully setup your PI.
+Reference:https://github.com/pschragger/IOT_Tutorials_for_VU/blob/main/RPI_BOOT_WIFI_tutorial/README.md
 
 
 
