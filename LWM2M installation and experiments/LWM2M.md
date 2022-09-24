@@ -49,7 +49,8 @@ Install wireshark and you can see the two way packets transfer between the PC an
   
 ![image](https://user-images.githubusercontent.com/112664141/192082024-ec23b1eb-caf0-422d-b6e9-692aaf1f75ab.png)
 
-I ran the boostrap server and add client using clients configuration.(reference:https://github.com/eclipse/leshan#test-server-sandbox:~:text=You%20can%20also%20try%20our%20bootstrap%20demo%20server%3A)
+I ran the boostrap server using the command<br>
+ java -jar leshan-bsserver-demo/target/leshan-bsserver-demo-*-SNAPSHOT-jar-with-dependencies.jar <br>                                          Go to leshan server page using DietPi IP ADDR:8080 and add client using clients configuration.(reference:https://github.com/eclipse/leshan#test-server-sandbox:~:text=You%20can%20also%20try%20our%20bootstrap%20demo%20server%3A)
   
 ![image](https://user-images.githubusercontent.com/112664141/192082029-aefef7d2-dc27-4bad-8367-95cb171f88f7.png)
 
