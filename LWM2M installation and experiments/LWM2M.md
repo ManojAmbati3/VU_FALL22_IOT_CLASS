@@ -55,6 +55,10 @@ I ran the boostrap server using the command<br>
 ![image](https://user-images.githubusercontent.com/112664141/192082029-aefef7d2-dc27-4bad-8367-95cb171f88f7.png)
 
 
+I have tried to perform read and write operations on the Pi, changing the timezone using the leshan server and the operations are also shown in the commamnd promt
+  ![image](https://user-images.githubusercontent.com/112664141/192084946-23429e45-4402-4d3a-ab9a-8878f9dbbb55.png)
+
+![image](https://user-images.githubusercontent.com/112664141/192084885-0b87abd5-6159-41ec-b985-d630a11f09bf.png)
 
 
 
