@@ -41,21 +41,21 @@ java -jar leshan-server-demo/target/leshan-server-demo-*-SNAPSHOT-jar-with-depen
   <BR>
   EXPERIMENTS<BR>
 <BR>
-  Enter the command 'sudo iwlist wlan0 scan' to display all the wifi networks available to the Raspberry Pi and their information.<br>
+ 1. Enter the command 'sudo iwlist wlan0 scan' to display all the wifi networks available to the Raspberry Pi and their information.<br>
  (Reference: https://dronebotworkshop.com/raspberry-pi-cases/#:~:text=a%20wired%20connection.-,Scanning%20WiFi%20Networks,-One%20other%20test)
 ![image](https://user-images.githubusercontent.com/112664141/192082190-0271390b-7b0c-4781-bae2-b24df052716d.png)
 
-Install wireshark and you can see the two way packets transfer between the PC and the Pi with their IP adddress.
+2.Install wireshark and you can see the two way packets transfer between the PC and the Pi with their IP adddress.
   
 ![image](https://user-images.githubusercontent.com/112664141/192082024-ec23b1eb-caf0-422d-b6e9-692aaf1f75ab.png)
 
-I ran the boostrap server using the command<br>
+3.I ran the boostrap server using the command<br>
  java -jar leshan-bsserver-demo/target/leshan-bsserver-demo-*-SNAPSHOT-jar-with-dependencies.jar <br>                                          Go to leshan server page using DietPi IP ADDR:8080 and add client using clients configuration.(reference:https://github.com/eclipse/leshan#test-server-sandbox:~:text=You%20can%20also%20try%20our%20bootstrap%20demo%20server%3A)
   
 ![image](https://user-images.githubusercontent.com/112664141/192082029-aefef7d2-dc27-4bad-8367-95cb171f88f7.png)
 
 
-I have tried to perform read and write operations on the Pi, changing the timezone using the leshan server and the operations are also shown in the commamnd promt
+4.I have tried to perform read and write operations on the Pi, changing the timezone using the leshan server and the operations are also shown in the commamnd promt
   ![image](https://user-images.githubusercontent.com/112664141/192084946-23429e45-4402-4d3a-ab9a-8878f9dbbb55.png)
 
 ![image](https://user-images.githubusercontent.com/112664141/192084885-0b87abd5-6159-41ec-b985-d630a11f09bf.png)
