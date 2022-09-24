@@ -26,9 +26,19 @@
   ![PHOTO-2022-09-22-13-29-48](https://user-images.githubusercontent.com/112664141/192081434-e9935f07-a412-45d6-a125-d536967cfa28.jpg)
   I have changed the heap memory using the command<br>
   set MAVEN_OPTS="-Xmx512m"  (reference:https://stackoverflow.com/questions/42505638/maven-failing-to-assemble-war-java-heap-space-issue-stanford-core-nlp)<br>
-  Then, I was able to build leshan.
+  Then, I was able to build leshan.<br>
   ![image](https://user-images.githubusercontent.com/112664141/192081569-2db7248c-d02b-4060-ba7b-c06f03269d3d.png)
+To start the leshan server enter the command<br>
+java -jar leshan-server-demo/target/leshan-server-demo-*-SNAPSHOT-jar-with-dependencies.jar &<br>
+ In the browser, enter the IP address of the diet pi followed by :8080 port<br>
+ Run the leshan client using the command<br>
+ java -jar leshan-client-demo/target/leshan-client-demo-*-SNAPSHOT-jar-with-dependencies.jar
+ You can see your diet pi in registered clients.
+ ![image](https://user-images.githubusercontent.com/112664141/192081734-082d90d2-7656-4f40-8a4f-7d07e8fdfa80.png)
+  Tapping on DietPi gives more information about the client
+  ![image](https://user-images.githubusercontent.com/112664141/192081857-e067d874-b089-4ff2-9d9b-cfa1744588ab.png)
 
+ 
 
 
   
