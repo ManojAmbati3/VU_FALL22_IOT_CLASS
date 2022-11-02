@@ -75,10 +75,20 @@ Select 'Enable Red color' and enter the pin number where the LED is connected th
 Here is a circuit diagram used to connect the LED to the ESP32, found in the C_Tutorial in the Freenove tutorial
 ![bf55ade4-0493-4597-b5ae-cc8f4a207ad2_Screenshot 2022-10-06 172633_full_retina](https://user-images.githubusercontent.com/112664141/199412016-63cef473-2b31-4312-a395-4b8868311b79.png)
 This is my circuit diagram and working LED 
+
+To get the LED light turn on, go to the leshan server and select the client.
+
+In the client menu select the 'Light control/3311' located in the botttom left.
+
+write over the ON/OFF as 'true' and I have set the dimmer to '50'
+
 ![9ea478aa-bf3a-4e26-89c3-802ecfe000ea_IOT_LED_full_retina](https://user-images.githubusercontent.com/112664141/199412043-eb7617c0-a6a2-4246-b3f1-f02706ec7535.png)
+This is my circuit diagram for the push button experiment
+
+Follow the similar procedure as the Light control experiment but change the 'board options' in blue screen menu from light control to push button and assign the respective pin number(I have chosen pin 27)  
 
 ![iott](https://user-images.githubusercontent.com/112664141/199412069-4c4bdfba-8c63-46b3-8727-6f887b8bd88a.jpeg)
-
+In the leshan server, Select 'Push button/3347' and read from the 'Digital input counter' to get the amount of times the push button is clicked.
 ![iot2](https://user-images.githubusercontent.com/112664141/199412081-8546e75e-18b3-4f43-931d-2b7ba7278862.jpeg)
 
 
@@ -87,4 +97,6 @@ References:
 https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135937107967
 https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135937086902
 https://github.com/pschragger/IOT_Tutorials_for_VU/tree/main/RPI_BUILD_LWM2M_DEVICE
+https://github.com/pschragger/IOT_Tutorials_for_VU/tree/main/RPI_DEVICE_MANAGEMENT_INSTALL_tutorial
+https://github.com/AVSystem/Anjay-esp32-client
 http://freenove.com/fnk0047
