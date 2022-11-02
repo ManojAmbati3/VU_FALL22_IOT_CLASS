@@ -74,7 +74,7 @@ Select 'Enable Red color' and enter the pin number where the LED is connected th
 
 Here is a circuit diagram used to connect the LED to the ESP32, found in the C_Tutorial in the Freenove tutorial
 ![bf55ade4-0493-4597-b5ae-cc8f4a207ad2_Screenshot 2022-10-06 172633_full_retina](https://user-images.githubusercontent.com/112664141/199412016-63cef473-2b31-4312-a395-4b8868311b79.png)
-This is my circuit diagram and working LED 
+This is my circuit with a working LED 
 
 To get the LED light turn on, go to the leshan server and select the client.
 
@@ -88,6 +88,7 @@ This is my circuit diagram for the push button experiment
 Follow the similar procedure as the Light control experiment but change the 'board options' in blue screen menu from light control to push button and assign the respective pin number(I have chosen pin 27)  
 
 ![iott](https://user-images.githubusercontent.com/112664141/199412069-4c4bdfba-8c63-46b3-8727-6f887b8bd88a.jpeg)
+
 In the leshan server, Select 'Push button/3347' and read from the 'Digital input counter' to get the amount of times the push button is clicked.
 ![iot2](https://user-images.githubusercontent.com/112664141/199412081-8546e75e-18b3-4f43-931d-2b7ba7278862.jpeg)
 
