@@ -83,6 +83,9 @@ In the client menu select the 'Light control/3311' located in the botttom left.
 write over the ON/OFF as 'true' and I have set the dimmer to '50'
 
 ![9ea478aa-bf3a-4e26-89c3-802ecfe000ea_IOT_LED_full_retina](https://user-images.githubusercontent.com/112664141/199412043-eb7617c0-a6a2-4246-b3f1-f02706ec7535.png)
+
+Push Button:
+
 This is my circuit diagram for the push button experiment
 
 Follow the similar procedure as the Light control experiment but change the 'board options' in blue screen menu from light control to push button and assign the respective pin number(I have chosen pin 27)  
