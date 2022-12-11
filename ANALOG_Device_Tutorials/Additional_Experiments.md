@@ -30,6 +30,10 @@ Verify and upload the .ino file and go to serial monitor on top right after uplo
 
 Change the baud rate to 115200 and you can see the output.
 
+
+Circuit Diagram
+
+
 ![iot4](https://user-images.githubusercontent.com/112664141/193238820-82ebb0a5-79d0-4f1a-828f-b6a49bbfdfed.jpeg)
 
 
@@ -46,11 +50,19 @@ Output in Serial monitor
 Ref: https://freenove.com/fnk0047/
 
 
-2.ESP8266 DHT11
+2. ESP8266 DHT11
 
-I have tried to integrate DHT 11 with ESP8266, but maybe due to my wrong Circuit diagram setup, I get the error 'failed to read from DHT sensor'
+I have tried to integrate DHT 11 with ESP8266, due to my wrong Circuit diagram setup, I get the error 'failed to read from DHT sensor'
+
+
+Circuit
+
 
 ![iot3](https://user-images.githubusercontent.com/112664141/193238785-99554a0a-44d3-4372-95db-d379f0423a7c.jpeg)
+
+
+Code snippet 
+
 
 ![iot2](https://user-images.githubusercontent.com/112664141/193226658-cc89dae9-b3c8-40d3-a539-9936c5d17035.PNG)
 Ref:https://how2electronics.com/dht11-humidity-temperature-nodemcu-thingspeak/
