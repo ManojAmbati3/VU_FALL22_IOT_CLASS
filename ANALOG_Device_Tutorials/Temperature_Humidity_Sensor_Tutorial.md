@@ -1,4 +1,4 @@
-Integrate the DHT11 sensor with Raspberry Pi for the temperature and humidity readings. 
+Integrate the DHT11 sensor with Raspberry Pi for the temperature and humidity readings. DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It uses a humidity sensor and a thermistor to measure the air near it, and sends a digital signal on the data pin.
 
 Hardware: 
 
