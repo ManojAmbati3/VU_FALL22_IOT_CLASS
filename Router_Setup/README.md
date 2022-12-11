@@ -4,7 +4,7 @@
 1. Contents of the router box : It contains the router, an ethernet cable, and a micro-usb power cable.
 
 
-2. To access the admin panel, you need to connect to the router by using the SSID(My default SSID was GT-MT300N-V2) and entering the default password 
+2. To access the admin panel, you need to connect to the router by using the SSID(My default SSID was GT-MT300N-V2) and entering the default password .
 
 
 3. ‘goodlife’, after connecting the router with the device you can access the admin panel by visiting 192.168.8.1 on your browser.
