@@ -27,5 +27,4 @@ We can also change the default SSID of our router by going to the ‘wireless’
 
 I have changed my SSID to Manoj_IOT.
 
-https://github.com/ManojAmbati3/VU_FALL22_IOT_CLASS/blob/main/Router_Setup/img/Screen%20Shot%202022-09-08%20at%207.15.47%20PM.png?raw=true![image](https://user-images.githubusercontent.com/112664141/206885087-8cc0d581-66b9-4391-a5fb-ba90f84fba7b.png)
-
+https://github.com/ManojAmbati3/VU_FALL22_IOT_CLASS/blob/main/Router_Setup/img/Screen%20Shot%202022-09-08%20at%207.15.47%20PM.png
