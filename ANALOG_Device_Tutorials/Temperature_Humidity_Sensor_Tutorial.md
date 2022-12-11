@@ -28,7 +28,7 @@ To build, enter command './build'
 
 Create a C program file and use the code provided in the tutorial and change the counter from 16→50. (Decreases the 'Data not good, skip' messages)
 
-![image](https://user-images.githubusercontent.com/112664141/206886022-73baed61-3886-462c-a954-3fb9f8cf888d.png)
+![image](https://user-images.githubusercontent.com/112664141/206886351-0f64284e-6e70-4485-bf74-7fbac17a4e31.png)
 
 
 Use the command 'gcc -o HumidTemp HumidTemp.c -lwiringPi -lwiringPiDev' to execute the C file.
