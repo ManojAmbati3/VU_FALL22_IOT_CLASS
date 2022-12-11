@@ -1,4 +1,4 @@
-# VU_FALL22_IOT_CLASS
+# Router Setup
 
 
 1. Contents of the router box : It contains the router, an ethernet cable, and a micro-usb power cable.
