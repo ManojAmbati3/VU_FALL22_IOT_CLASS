@@ -32,7 +32,13 @@ Change the baud rate to 115200 and you can see the output.
 
 ![iot4](https://user-images.githubusercontent.com/112664141/193238820-82ebb0a5-79d0-4f1a-828f-b6a49bbfdfed.jpeg)
 
-![arddht11](https://user-images.githubusercontent.com/112664141/193226596-fdeeeaab-048d-445f-a93c-023b3ae765ec.png)
+
+Code Snippet
+![image](https://user-images.githubusercontent.com/112664141/206885753-5e659320-fa6b-453a-80a0-024c7a5ed72c.png)
+
+Output in Serial monitor
+![image](https://user-images.githubusercontent.com/112664141/206885766-f18400a3-ea73-471b-930d-c6626112b421.png)
+
 Ref: https://freenove.com/fnk0047/
 
 
